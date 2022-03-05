@@ -1,4 +1,4 @@
-# BIRTHDAY CALCULATOR
+# BirthdayCalculator
 
 ##### By Monicah Maina
 ### It is a name generator.
@@ -28,7 +28,7 @@
 * Fork the repo to appear in your list of repositories.
 
 
-[Go Back to the top](#BIRTHDAY CALCULATOR)
+[Go Back to the top](#BirthdayCalculator)
 ## Technology Used
 * HTML - which was used to build the structure of the pages.
 
@@ -43,7 +43,7 @@
 
 * YouTube
 
-[Go Back to the top](#BIRTHDAY CALCULATOR)
+[Go Back to the top](BirthdayCalculator)
 
 ## Authors Info
 
@@ -55,4 +55,4 @@
 
 
 
-[Go Back to the top](#BIRTHDAY CALCULATOR)
+[Go Back to the top](#BirthdayCalculator)
