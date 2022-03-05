@@ -7,6 +7,15 @@ body{
     background-color: black;
     color: white;
 }
+.section1{
+    text-align: center;
+}
+.section1 h1{
+    margin: 5%;
+}
+.section1 h2{
+    margin: 5%;
+}
 .section1 button{
     background-color: pink;
     padding-top: 20px;
@@ -15,4 +24,5 @@ body{
     padding-right: 50px;
     font-size: larger;
     font-family: fantasy;
+    margin: 10%;
 }
