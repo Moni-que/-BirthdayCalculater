@@ -8,24 +8,37 @@ body{
     color: white;
 }
 .image1{
-    height: 100vh;
+    height: 90vh;
 }
 .section1{
-    text-align: center;
+    /* text-align: center; */
+    display: flex;
+    /* margin: 10px; */
 }
-.section1 h1{
+.h1h2{
+    text-align: center;
+    /* margin-top: 150px; */
+}
+.h1h2 h1{
+    margin: 100px;
+}
+.h1h2 h2{
+    margin-top: 50px;
+}
+/* .section1 h1{
     margin: 5%;
 }
 .section1 h2{
     margin: 5%;
-}
-.section1 button{
+} */
+.h1h2 button{
     background-color: pink;
-    padding-top: 20px;
+     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 50px;
     padding-right: 50px;
-    font-size: larger;
+    font-size: larger; 
     font-family: fantasy;
     margin: 10%;
+    /* margin-left: 50%; */
 }
