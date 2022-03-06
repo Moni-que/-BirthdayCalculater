@@ -9,10 +9,7 @@ body{
 }
 .image1{
     height: 90vh;
-}
-.image2{
-    height: 40vh;
-    margin-top: 100px;
+    margin-top: 10px;
 }
 .section1{
     display: flex;
@@ -20,6 +17,7 @@ body{
 }
 .h1h2{
     text-align: center;
+    margin-top: 100px;
 }
 .h1h2 h1{
     margin: 80px;
