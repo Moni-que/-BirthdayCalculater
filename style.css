@@ -10,20 +10,24 @@ body{
 .image1{
     height: 90vh;
 }
+.image2{
+    height: 40vh;
+    margin-top: 100px;
+}
 .section1{
     /* text-align: center; */
     display: flex;
-    /* margin: 10px; */
+    margin: 50px;
 }
 .h1h2{
     text-align: center;
     /* margin-top: 150px; */
 }
 .h1h2 h1{
-    margin: 100px;
+    margin: 80px;
 }
 .h1h2 h2{
-    margin-top: 50px;
+    margin-top: 0px;
 }
 /* .section1 h1{
     margin: 5%;
