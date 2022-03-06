@@ -1,0 +1,1 @@
+const days=["Sunday","Monday","Tuesday","wednesday","Thursday","Friday","Saturday"]
