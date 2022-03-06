@@ -40,6 +40,14 @@ body{
 
            /* style names.html */
 
+.second-page{
+    display: flex;
+}
+.second-page-2{
+    justify-content: space-evenly;
+    display: flex;
+}       
+
 .details-input{
     width: 360px;
     margin: auto;
