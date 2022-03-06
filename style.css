@@ -35,3 +35,32 @@ body{
     font-family: fantasy;
     margin: 10%;
 }
+
+
+
+           /* style names.html */
+
+.details-input{
+    width: 360px;
+    margin: auto;
+}
+.details{
+    background: rgb(165, 33, 33);
+    margin: 20px;
+    text-align: center;
+}
+.details input{
+    font-family: fantasy;
+    background: pink;
+    border: solid 1px;
+    padding: 10px 20px;
+    margin: 20px;
+    font-size: larger;
+}
+.details button{
+    background-color: black;
+    color: white;
+    padding: 10px  60px;
+   font-size: larger; 
+   font-family: fantasy;
+}
