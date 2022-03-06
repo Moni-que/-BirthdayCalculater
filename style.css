@@ -66,6 +66,9 @@ body{
     margin: 20px;
     font-size: larger;
 }
+.details input:hover{
+    background-color: white;
+}
 .details button{
     background-color: black;
     color: white;
