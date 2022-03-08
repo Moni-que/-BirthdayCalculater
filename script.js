@@ -1,24 +1,21 @@
-// writing a function with a variable
-let button = document.getElementById("submission");
-button.onclick=()=>{
+let theButton = document.getElementById("submission");
+theButton.onclick=()=>{
+    let theDisplay = document.getElementById("empty");
     let name = document.getElementById("name").value;
-    let date = document.getElementById("date").value;
-    let month = document.getElementById("month").value;
-    let year = document.getElementById("year").value;
+    let theDate = document.getElementById("date").value;
     let gender = document.myform.gender.value;
-    let endMonth = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
-    let today = new Date ();
-    let realDays = today.getDate ();
-    let realMonths = today.getMonth ();
-    let realYears = today.getFullYear ();
-    let femaleAkanNames=["Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","Ama"];
-    let maleAkanNames=["Kwasi","Kwadwo","Kwabena","Kwaku","Yaw","Kofi","Kwame"];
-    let days = ["Sunday","Monday","Tuesday","wednesday","Thursday","Friday","Saturday"];
-    let months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+    let today = new Date(theDate);
+    let realDays = today.getDay();
+    let femaleAkanNames=["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
+    let maleAkanNames=["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
+    event.preventDefault();
 
-// writing if statements to display answers
-    if (date === "" || month === "" || year === "" || name === "" || gender === ""){
-        alert ("please fill the form");
+
+    if(name==="" || date==="" || gender===""){
+        alert("please fill the form");
+    }else if(gender==="male"){
+        theDisplay.innerHTML=`Your Akan name is ${femaleAkanNames[realDays]} <br> Thank You`;
+    }else{
+        theDisplay.innerHTML=`Your Akan name is ${femaleAkanNames[realDays]} <br> Thank You`;
     }
-
 }
