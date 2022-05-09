@@ -1,6 +1,11 @@
 # BirthdayCalculator
 
 ##### By Monicah Maina
+
+### Screenshot of the Application
+![Screenshot from 2022-05-09 05-57-56](https://user-images.githubusercontent.com/93192319/167333183-a09b2d33-877d-4dee-9e53-9878c4cf45e6.png)
+![Screenshot from 2022-05-09 05-58-39](https://user-images.githubusercontent.com/93192319/167333193-a3670728-0114-4082-bac3-b95b89b66baa.png)
+
 ### It is a name generator.
 
 ## Table of Content
